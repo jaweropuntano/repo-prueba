@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //reduccion de condicional if tranformandolo en objetos.
+    const suscripcion ={
+    free: "tiene solo un mes",
+    basico: "tiene pack basico",
+    full: "tiene pack completo",
+};
+function packSuscripcion(suscripto){
+    if(suscripcion[suscripto]){
+        console.log(suscripcion[suscripto]);
+        return;
+    }
+    console.warn("esa suscripcion no existe");
+}
+
+
+
+    </script>
+    
+</body>
+</html>
